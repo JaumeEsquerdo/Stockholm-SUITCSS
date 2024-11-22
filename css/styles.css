@@ -1,5 +1,149 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.Header {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+
+.Paginas {
+    display: flex;
+    gap: 0.625rem;
+    list-style: none;
+}
+
+.Grid-structure {
+    display: grid;
+   
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows:repeat(5, 1fr) ; */
+    /* grid-auto-rows: repeat(5, 1fr); */
+    gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    margin: 100px;
+}
+.Grid-images{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.Grid-images--1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.Grid-images--2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--3 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.Grid-images--4 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--5 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.Grid-images--6 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--7 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--8 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--9 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.Grid-images--10 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--11 {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.Grid-images--12 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--13 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--14 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--15 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--16 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--17 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.Grid-images--18 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--19 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--20 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Grid-images--21 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.Footer{
+    height: 200px;
 }
