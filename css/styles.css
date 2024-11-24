@@ -177,7 +177,7 @@
 .Description {
     text-align: center;
     width: 21.875rem;
-    color: #838383;
+    color: #B5B0B0;
     margin-top: 1.25rem;
     font-size: 1.3rem;
 }
@@ -185,13 +185,13 @@
 .Footer {
     display: flex;
     justify-content: center;
-    color: #838383;
+    color: #B5B0B0;
     height: 12.5rem;
     padding: 6.25rem;
 }
 
 .Footer-link {
-    color: #838383;
+    color: #B5B0B0;
     text-decoration: none;
     font-size: 1.3rem;
 }
